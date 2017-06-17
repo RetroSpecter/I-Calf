@@ -1,0 +1,68 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: Volumetric Clouds HighQ
+  m_Shader: {fileID: 4800000, guid: 7a5d0014cc034a44c9d4ccd8157b0e74, type: 3}
+  m_ShaderKeywords: _ _NORMALMAP
+  m_LightmapFlags: 5
+  m_EnableInstancingVariants: 0
+  m_CustomRenderQueue: 2501
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _DensityMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _PerlinNormalMap:
+        m_Texture: {fileID: 2800000, guid: 8473ef3fcc98e4b4ca292201dcdc600d, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _Alpha: 7.74
+    - _AlphaCut: -0.3
+    - _CloudBaseFlatness: 0.17
+    - _Density: 0.08
+    - _DensityHigh: 1
+    - _DensityLow: -1
+    - _DensityMapOn: 0
+    - _DepthColor: 0
+    - _DistanceBlend: 0
+    - _DrawDistance: 1310
+    - _HQPointLight: 0
+    - _IndirectContribution: 1
+    - _LodBase: -6.25
+    - _LodOffset: 4.87
+    - _MaxSteps: 403.58
+    - _Normalized: 0.61
+    - _NormalmapState: 1
+    - _NormalsIntensity: 3.1
+    - _OpacityGain: 0.03
+    - _OrthographicPerspective: 201
+    - _RenderQueue: 2501
+    - _RenderShadowsOnly: 0
+    - _SSShadows: 0
+    - _ShadowDrawDistance: 0
+    - _SphereHorizonStretch: 0.6
+    - _SphereMapped: 0
+    - _StepNearSurface: 0.5
+    - _StepSize: 0.015
+    - _StepSkip: 10
+    - _Tiling: 1278
+    - _TimeMult: 0.1
+    - _TimeMultSecondLayer: 4
+    m_Colors:
+    - _BaseColor: {r: 1, g: 1, b: 1, a: 0.366}
+    - _CloudSpherePosition: {r: 0, g: 0, b: 0, a: 0}
+    - _CloudTransform: {r: 467.3, g: 83.4, b: 0, a: 0}
+    - _LightAttenuation: {r: 0.35, g: 0.35, b: 0.35, a: 0.15}
+    - _Shading: {r: 0.2833753, g: 0.3455882, b: 0.16517083, a: 0.891}
+    - _ShadowColor: {r: 0, g: 0, b: 0, a: 0.16078432}
+    - _WindDirection: {r: 1, g: 0, b: 0, a: 0}

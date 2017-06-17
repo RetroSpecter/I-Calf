@@ -1,0 +1,68 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: clouds
+  m_Shader: {fileID: 4800000, guid: 7a5d0014cc034a44c9d4ccd8157b0e74, type: 3}
+  m_ShaderKeywords: _NORMALMAP
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_CustomRenderQueue: 2542
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _DensityMap:
+        m_Texture: {fileID: 2800000, guid: 55f5c739e5711f841b02183ae8d0298c, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _PerlinNormalMap:
+        m_Texture: {fileID: 2800000, guid: 5a1bedf7284966f4e827a213e4c46e5a, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _Alpha: 12.18
+    - _AlphaCut: -1.27
+    - _CloudBaseFlatness: 0.1
+    - _Density: 0
+    - _DensityHigh: 1
+    - _DensityLow: -1
+    - _DensityMapOn: 0
+    - _DepthColor: 0
+    - _DistanceBlend: 3.13
+    - _DrawDistance: 843.4
+    - _HQPointLight: 0
+    - _IndirectContribution: 0.97
+    - _LodBase: 0.67
+    - _LodOffset: 0.93
+    - _MaxSteps: 651
+    - _Normalized: 0.29
+    - _NormalmapState: 1
+    - _NormalsIntensity: 1
+    - _OpacityGain: 0.1
+    - _OrthographicPerspective: 0
+    - _RenderQueue: 2542
+    - _RenderShadowsOnly: 0
+    - _SSShadows: 0
+    - _ShadowDrawDistance: 999
+    - _SphereHorizonStretch: 0.6
+    - _SphereMapped: 0
+    - _StepNearSurface: 0.41
+    - _StepSize: 0.015
+    - _StepSkip: 2.29
+    - _Tiling: 3292.9
+    - _TimeMult: 0.1
+    - _TimeMultSecondLayer: 1
+    m_Colors:
+    - _BaseColor: {r: 0.78676474, g: 0.78676474, b: 0.78676474, a: 0.641}
+    - _CloudSpherePosition: {r: 0, g: 0, b: 0, a: 0}
+    - _CloudTransform: {r: 207, g: 146.1, b: 398.7, a: -502.46}
+    - _LightAttenuation: {r: 0.9264706, g: 0.86163646, b: 0.72210205, a: 0.128}
+    - _Shading: {r: 0.9117647, g: 0.85988843, b: 0.6905277, a: 0.703}
+    - _ShadowColor: {r: 1, g: 1, b: 1, a: 0.5}
+    - _WindDirection: {r: 1.5, g: 0, b: 0, a: 0}

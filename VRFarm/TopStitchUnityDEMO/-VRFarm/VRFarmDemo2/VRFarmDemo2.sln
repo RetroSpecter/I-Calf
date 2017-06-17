@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2017
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VRFarmDemo2.Plugins", "VRFarmDemo2.Plugins.csproj", "{A2F3BC2E-D15F-E208-D8D3-5A4388B8C665}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VRFarmDemo2", "VRFarmDemo2.csproj", "{56F44D8A-C88B-6C7E-3643-D99A9D2ACADC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VRFarmDemo2.Editor", "VRFarmDemo2.Editor.csproj", "{77E610DC-1316-B5A7-17C0-7419CEE0D93C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A2F3BC2E-D15F-E208-D8D3-5A4388B8C665}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A2F3BC2E-D15F-E208-D8D3-5A4388B8C665}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A2F3BC2E-D15F-E208-D8D3-5A4388B8C665}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A2F3BC2E-D15F-E208-D8D3-5A4388B8C665}.Release|Any CPU.Build.0 = Release|Any CPU
+		{56F44D8A-C88B-6C7E-3643-D99A9D2ACADC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{56F44D8A-C88B-6C7E-3643-D99A9D2ACADC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{56F44D8A-C88B-6C7E-3643-D99A9D2ACADC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{56F44D8A-C88B-6C7E-3643-D99A9D2ACADC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{77E610DC-1316-B5A7-17C0-7419CEE0D93C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{77E610DC-1316-B5A7-17C0-7419CEE0D93C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{77E610DC-1316-B5A7-17C0-7419CEE0D93C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{77E610DC-1316-B5A7-17C0-7419CEE0D93C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
