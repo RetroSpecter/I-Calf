@@ -1,0 +1,214 @@
+fileFormatVersion: 2
+guid: 57cdd92294a875a4e8f151def57a43b8
+timeCreated: 1438063144
+licenseType: Store
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: arch24_055_00
+    100002: arch24_055_00 1
+    100004: arch24_055_00 2
+    100006: arch24_055_00 3
+    100008: arch24_055_00 4
+    100010: arch24_056_00
+    100012: arch24_056_00 1
+    100014: arch24_056_00 2
+    100016: arch24_056_00 3
+    100018: arch24_056_00 4
+    100020: arch24_057_00
+    100022: arch24_057_00 1
+    100024: arch24_057_00 2
+    100026: arch24_057_00 3
+    100028: arch24_057_00 4
+    100030: arch24_059_00
+    100032: arch24_059_00 1
+    100034: arch24_059_00 2
+    100036: arch24_059_00 3
+    100038: arch24_059_00 4
+    100040: arch24_060_17
+    100042: arch24_060_17 1
+    100044: arch24_060_17 2
+    100046: arch24_060_17 3
+    100048: arch24_060_17 4
+    100050: arch24_062_00
+    100052: arch24_062_00 1
+    100054: arch24_062_00 2
+    100056: arch24_062_00 3
+    100058: arch24_062_00 4
+    100060: arch24_062_01
+    100062: arch24_062_01 1
+    100064: arch24_062_01 2
+    100066: arch24_062_01 3
+    100068: arch24_062_01 4
+    100070: arch24_063_05
+    100072: arch24_063_05 1
+    100074: arch24_063_05 2
+    100076: arch24_063_05 3
+    100078: arch24_063_05 4
+    100080: B70FSB05
+    100082: B70FSB06
+    100084: column 1
+    100086: column 2
+    100088: detail_225
+    100090: //RootNode
+    100092: fence 5
+    100094: Group01
+    100096: Group01 1
+    100098: Group015
+    100100: Group11
+    100102: Group12
+    100104: Group13
+    100106: Group14
+    100108: Particle View 01
+    100110: Particle View 01 1
+    100112: Particle View 01 2
+    100114: Particle View 01 3
+    100116: Particle View 01 4
+    100118: Particle View 01 5
+    100120: Particle View 01 6
+    100122: Particle View 01 7
+    100124: VRayLight012
+    100126: VRayLight02
+    100128: "\u0434\u043E\u0441\u043A\u0430"
+    100130: "\u043C\u0438\u043A\u0440\u043E\u0432\u043E\u043B\u043D\u043E\u0432\u043A\u0430"
+    100132: "\u0447\u0430\u0439\u043D\u0438\u043A"
+    100134: "\u0447\u0430\u0448\u043A\u0438"
+    400000: arch24_055_00
+    400002: arch24_055_00 1
+    400004: arch24_055_00 2
+    400006: arch24_055_00 3
+    400008: arch24_055_00 4
+    400010: arch24_056_00
+    400012: arch24_056_00 1
+    400014: arch24_056_00 2
+    400016: arch24_056_00 3
+    400018: arch24_056_00 4
+    400020: arch24_057_00
+    400022: arch24_057_00 1
+    400024: arch24_057_00 2
+    400026: arch24_057_00 3
+    400028: arch24_057_00 4
+    400030: arch24_059_00
+    400032: arch24_059_00 1
+    400034: arch24_059_00 2
+    400036: arch24_059_00 3
+    400038: arch24_059_00 4
+    400040: arch24_060_17
+    400042: arch24_060_17 1
+    400044: arch24_060_17 2
+    400046: arch24_060_17 3
+    400048: arch24_060_17 4
+    400050: arch24_062_00
+    400052: arch24_062_00 1
+    400054: arch24_062_00 2
+    400056: arch24_062_00 3
+    400058: arch24_062_00 4
+    400060: arch24_062_01
+    400062: arch24_062_01 1
+    400064: arch24_062_01 2
+    400066: arch24_062_01 3
+    400068: arch24_062_01 4
+    400070: arch24_063_05
+    400072: arch24_063_05 1
+    400074: arch24_063_05 2
+    400076: arch24_063_05 3
+    400078: arch24_063_05 4
+    400080: B70FSB05
+    400082: B70FSB06
+    400084: column 1
+    400086: column 2
+    400088: detail_225
+    400090: //RootNode
+    400092: fence 5
+    400094: Group01
+    400096: Group01 1
+    400098: Group015
+    400100: Group11
+    400102: Group12
+    400104: Group13
+    400106: Group14
+    400108: Particle View 01
+    400110: Particle View 01 1
+    400112: Particle View 01 2
+    400114: Particle View 01 3
+    400116: Particle View 01 4
+    400118: Particle View 01 5
+    400120: Particle View 01 6
+    400122: Particle View 01 7
+    400124: VRayLight012
+    400126: VRayLight02
+    400128: "\u0434\u043E\u0441\u043A\u0430"
+    400130: "\u043C\u0438\u043A\u0440\u043E\u0432\u043E\u043B\u043D\u043E\u0432\u043A\u0430"
+    400132: "\u0447\u0430\u0439\u043D\u0438\u043A"
+    400134: "\u0447\u0430\u0448\u043A\u0438"
+    2300000: column 1
+    2300002: column 2
+    2300004: fence 5
+    3300000: column 1
+    3300002: column 2
+    3300004: fence 5
+    4300000: fence 5
+    4300002: column 1
+    4300004: column 2
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

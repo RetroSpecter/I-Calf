@@ -1,0 +1,240 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: Flatland_Grass_HQ
+  m_Shader: {fileID: 10511, guid: 0000000000000000f000000000000000, type: 0}
+  m_ShaderKeywords: _ALPHATEST_ON _EMISSION
+  m_LightmapFlags: 1
+  m_EnableInstancingVariants: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _BmpMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _BumpMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Control:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailAlbedoMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailMask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailNormalMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DiffuseMapCutoutA:
+        m_Texture: {fileID: 2800000, guid: b705c44289fe2a5479332aaa1648d7d5, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DiffuseMapSpecA:
+        m_Texture: {fileID: 2800000, guid: b705c44289fe2a5479332aaa1648d7d5, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DiffuseMapTransA:
+        m_Texture: {fileID: 2800000, guid: b705c44289fe2a5479332aaa1648d7d5, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EmissionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _GITexture:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _GlossMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: b705c44289fe2a5479332aaa1648d7d5, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MetallicGlossMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Normal0:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Normal1:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Normal2:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Normal3:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _NormalMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _OcclusionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _OpacityTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ParallaxMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ShadowOffset:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SpecGlossMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SpecularMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Splat0:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Splat1:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Splat2:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Splat3:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _TranslucencyMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - PixelSnap: 0
+    - _AO: 0
+    - _BaseLight: 1
+    - _BmpScale: 1
+    - _BumpScale: 1
+    - _ColorMask: 15
+    - _Cull: 2
+    - _Cutoff: 0.052
+    - _CutoffNear: 0.496
+    - _DensityFalloffDistance: 0
+    - _DetailNormalMapScale: 1
+    - _DirectOcclusionBoost: 0
+    - _DstBlend: 0
+    - _Gloss: 1
+    - _GlossMapScale: 1
+    - _Glossiness: 0
+    - _GlossyReflections: 1
+    - _InvFade: 1
+    - _Metallic: 0
+    - _Mode: 1
+    - _NormalIntensity: 1
+    - _Occlusion: 0.98
+    - _OcclusionStrength: 1
+    - _Parallax: 0.005
+    - _PruneDistanceScale: 0
+    - _PruneFreeDistance: 0
+    - _ShadowStrength: 1
+    - _Shininess: 0.01
+    - _SmoothnessTextureChannel: 0
+    - _SpecIntensity: 0.234
+    - _SpecPower: 75.5
+    - _SpecularHighlights: 1
+    - _SpriteCameraUp: 0
+    - _SquashAmount: 1
+    - _SrcBlend: 1
+    - _TranslucencyViewDependency: 0.491
+    - _Transmission: 1.426
+    - _Transparency: 1
+    - _UVSec: 0
+    - _WindQuality: 0
+    - _ZTest: 4
+    - _ZWrite: 1
+    m_Colors:
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _Diffusecolor: {r: 1, g: 1, b: 1, a: 1}
+    - _Emission: {r: 0, g: 0, b: 0, a: 0}
+    - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+    - _HueVariation: {r: 1, g: 0.5, b: 0, a: 0.1}
+    - _ImageTexCoords0: {r: 0, g: 0, b: 0, a: 0}
+    - _ImageTexCoords1: {r: 0, g: 0, b: 0, a: 0}
+    - _ImageTexCoords10: {r: 0, g: 0, b: 0, a: 0}
+    - _ImageTexCoords11: {r: 0, g: 0, b: 0, a: 0}
+    - _ImageTexCoords12: {r: 0, g: 0, b: 0, a: 0}
+    - _ImageTexCoords13: {r: 0, g: 0, b: 0, a: 0}
+    - _ImageTexCoords14: {r: 0, g: 0, b: 0, a: 0}
+    - _ImageTexCoords15: {r: 0, g: 0, b: 0, a: 0}
+    - _ImageTexCoords16: {r: 0, g: 0, b: 0, a: 0}
+    - _ImageTexCoords17: {r: 0, g: 0, b: 0, a: 0}
+    - _ImageTexCoords18: {r: 0, g: 0, b: 0, a: 0}
+    - _ImageTexCoords19: {r: 0, g: 0, b: 0, a: 0}
+    - _ImageTexCoords2: {r: 0, g: 0, b: 0, a: 0}
+    - _ImageTexCoords20: {r: 0, g: 0, b: 0, a: 0}
+    - _ImageTexCoords21: {r: 0, g: 0, b: 0, a: 0}
+    - _ImageTexCoords22: {r: 0, g: 0, b: 0, a: 0}
+    - _ImageTexCoords23: {r: 0, g: 0, b: 0, a: 0}
+    - _ImageTexCoords24: {r: 0, g: 0, b: 0, a: 0}
+    - _ImageTexCoords25: {r: 0, g: 0, b: 0, a: 0}
+    - _ImageTexCoords26: {r: 0, g: 0, b: 0, a: 0}
+    - _ImageTexCoords27: {r: 0, g: 0, b: 0, a: 0}
+    - _ImageTexCoords28: {r: 0, g: 0, b: 0, a: 0}
+    - _ImageTexCoords29: {r: 0, g: 0, b: 0, a: 0}
+    - _ImageTexCoords3: {r: 0, g: 0, b: 0, a: 0}
+    - _ImageTexCoords30: {r: 0, g: 0, b: 0, a: 0}
+    - _ImageTexCoords31: {r: 0, g: 0, b: 0, a: 0}
+    - _ImageTexCoords4: {r: 0, g: 0, b: 0, a: 0}
+    - _ImageTexCoords5: {r: 0, g: 0, b: 0, a: 0}
+    - _ImageTexCoords6: {r: 0, g: 0, b: 0, a: 0}
+    - _ImageTexCoords7: {r: 0, g: 0, b: 0, a: 0}
+    - _ImageTexCoords8: {r: 0, g: 0, b: 0, a: 0}
+    - _ImageTexCoords9: {r: 0, g: 0, b: 0, a: 0}
+    - _InstanceData: {r: 0, g: 0, b: 0, a: 0}
+    - _PruneRefCountsSpriteMesh: {r: 0, g: 0, b: 0, a: 0}
+    - _SpecColor: {r: 0.5, g: 0.5, b: 0.5, a: 0}
+    - _Speccolor: {r: 1, g: 1, b: 1, a: 1}
+    - _TintColor: {r: 0.5, g: 0.5, b: 0.5, a: 0.5}
+    - _TranslucencyColor: {r: 0.73, g: 0.85, b: 0.41, a: 1}
+    - _TreeInfo0: {r: 0, g: 0, b: 0, a: 0}
+    - _TreeInfo1: {r: 0, g: 0, b: 0, a: 0}
+    - _TreeInfo2: {r: 0, g: 0, b: 0, a: 0}
+    - _TreeInfo3: {r: 0, g: 0, b: 0, a: 0}
+    - _TreeInstanceColor: {r: 1, g: 1, b: 1, a: 1}
+    - _TreeInstanceScale: {r: 1, g: 1, b: 1, a: 1}
+    - _TreeSize0: {r: 0, g: 0, b: 0, a: 0}
+    - _TreeSize1: {r: 0, g: 0, b: 0, a: 0}
+    - _TreeSize2: {r: 0, g: 0, b: 0, a: 0}
+    - _TreeSize3: {r: 0, g: 0, b: 0, a: 0}
