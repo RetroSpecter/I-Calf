@@ -57,14 +57,14 @@ AnimationClip:
       m_Curve:
       - serializedVersion: 2
         time: 0
-        value: {x: -2.77, y: -0.31, z: 6.06}
+        value: {x: -2.63, y: -0.31, z: 6.06}
         inSlope: {x: 0, y: 0, z: 0}
-        outSlope: {x: 0.11903324, y: -0, z: -0.23927493}
+        outSlope: {x: 0.11057403, y: -0, z: -0.23927493}
         tangentMode: 0
       - serializedVersion: 2
         time: 16.55
         value: {x: -0.8, y: -0.31, z: 2.1}
-        inSlope: {x: 0.11903324, y: 0, z: -0.23927493}
+        inSlope: {x: 0.11057403, y: 0, z: -0.23927493}
         outSlope: {x: 0, y: 0, z: 0}
         tangentMode: 0
       m_PreInfinity: 2
@@ -76,7 +76,7 @@ AnimationClip:
       m_Curve:
       - serializedVersion: 2
         time: 0
-        value: {x: 1471, y: 57, z: 1548}
+        value: {x: 2484, y: 57, z: 132}
         inSlope: {x: 0, y: 0, z: 0}
         outSlope: {x: 0, y: 0, z: 0}
         tangentMode: 0
@@ -282,14 +282,14 @@ AnimationClip:
       m_Curve:
       - serializedVersion: 2
         time: 0
-        value: -2.77
+        value: -2.63
         inSlope: 0
-        outSlope: 0.11903324
+        outSlope: 0.11057403
         tangentMode: 69
       - serializedVersion: 2
         time: 16.55
         value: -0.8
-        inSlope: 0.11903324
+        inSlope: 0.11057403
         outSlope: 0
         tangentMode: 69
       m_PreInfinity: 2
@@ -412,7 +412,7 @@ AnimationClip:
       m_Curve:
       - serializedVersion: 2
         time: 0
-        value: 1471
+        value: 2484
         inSlope: 0
         outSlope: 0
         tangentMode: 136
@@ -444,7 +444,7 @@ AnimationClip:
       m_Curve:
       - serializedVersion: 2
         time: 0
-        value: 1548
+        value: 132
         inSlope: 0
         outSlope: 0
         tangentMode: 136
@@ -559,7 +559,7 @@ AnimationClip:
   - time: 0
     functionName: setSkybox
     data: 
-    objectReferenceParameter: {fileID: 2100000, guid: 402f5d6a756aa6242ae20ecdd3c65590,
+    objectReferenceParameter: {fileID: 2100000, guid: b947c6162ada1bf4ab40ccb05ff28da3,
       type: 2}
     floatParameter: 0
     intParameter: 0

@@ -153,6 +153,7 @@
     <Compile Include="Assets\VRPanorama\StereoPanoramaPlayer\Resources\StereoPanorama.cs" />
     <Compile Include="Assets\VRPanorama\VRCapture.cs" />
     <Compile Include="Assets\fadeImageEffect.cs" />
+    <Compile Include="Assets\groupSpriteRenderer.cs" />
     <Compile Include="Assets\scripts\BillBoardGo.cs" />
     <Compile Include="Assets\scripts\CloudRotation.cs" />
     <Compile Include="Assets\scripts\LightSwitch.cs" />
@@ -163,6 +164,7 @@
     <Compile Include="Assets\scripts\grassSkew.cs" />
     <Compile Include="Assets\scripts\screenFade.cs" />
     <Compile Include="Assets\scripts\sortingLayer.cs" />
+    <Compile Include="Assets\slowScroll.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Assets\Fences\Readme.txt" />

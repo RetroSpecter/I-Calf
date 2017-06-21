@@ -34,8 +34,8 @@ Material:
     - _DensityLow: -1
     - _DensityMapOn: 0
     - _DepthColor: 0
-    - _DistanceBlend: 0
-    - _DrawDistance: 1310
+    - _DistanceBlend: 1
+    - _DrawDistance: 1639.14
     - _HQPointLight: 0
     - _IndirectContribution: 1
     - _LodBase: -6.25
@@ -59,10 +59,10 @@ Material:
     - _TimeMult: 0.1
     - _TimeMultSecondLayer: 4
     m_Colors:
-    - _BaseColor: {r: 1, g: 1, b: 1, a: 0.366}
+    - _BaseColor: {r: 0.78705704, g: 0.83823526, b: 0.30817473, a: 0.366}
     - _CloudSpherePosition: {r: 0, g: 0, b: 0, a: 0}
     - _CloudTransform: {r: 467.3, g: 83.4, b: 0, a: 0}
-    - _LightAttenuation: {r: 0.35, g: 0.35, b: 0.35, a: 0.15}
-    - _Shading: {r: 0.2833753, g: 0.3455882, b: 0.16517083, a: 0.891}
+    - _LightAttenuation: {r: 0.7352941, g: 0.7282096, b: 0.6325692, a: 0.15}
+    - _Shading: {r: 0.33088237, g: 0.3134322, b: 0.17274006, a: 0.891}
     - _ShadowColor: {r: 0, g: 0, b: 0, a: 0.16078432}
     - _WindDirection: {r: 1, g: 0, b: 0, a: 0}

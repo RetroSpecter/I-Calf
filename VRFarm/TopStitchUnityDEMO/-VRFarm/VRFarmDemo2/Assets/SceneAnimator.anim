@@ -283,7 +283,7 @@ AnimationClip:
   - time: 0
     functionName: setSkybox
     data: 
-    objectReferenceParameter: {fileID: 2100000, guid: 9d6cf073e3f5b9b4c91669f1cf1d65bb,
+    objectReferenceParameter: {fileID: 2100000, guid: 5adba90335829ff4e85e451d0d6e2733,
       type: 2}
     floatParameter: 0
     intParameter: 0
@@ -319,7 +319,7 @@ AnimationClip:
     intParameter: 0
     messageOptions: 0
   - time: 21.4
-    functionName: fadeBetweenScenes
+    functionName: jumpBetweenScenes
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0

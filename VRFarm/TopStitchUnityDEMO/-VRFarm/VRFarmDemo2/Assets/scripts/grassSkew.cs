@@ -8,7 +8,7 @@ public class grassSkew : BillBoardGo {
 
     void Start() {
         //animationOffset = Random.Range(8, 15);
-        GetComponent<Animator>().SetFloat("offset", Random.Range(0, 15));
+        GetComponent<Animator>().SetFloat("offset", Random.Range(0, 1));
         GetComponent<Animator>().SetBool("mirror", Random.Range(0, 2) > 0.5f);
 
         MyTransform = this.transform;
