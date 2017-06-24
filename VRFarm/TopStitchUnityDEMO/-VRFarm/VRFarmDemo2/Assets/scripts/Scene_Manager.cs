@@ -31,7 +31,7 @@ public class Scene_Manager : MonoBehaviour {
     }
 
     public void D1_Position() {
-        sceneCamera.transform.position  = new Vector3(-2.43f, 1.53f, 1.3f);
+        sceneCamera.transform.position  = new Vector3(-0.9f, -1.1f, -0.51f);
     }
 
     public void PositionReset() {
