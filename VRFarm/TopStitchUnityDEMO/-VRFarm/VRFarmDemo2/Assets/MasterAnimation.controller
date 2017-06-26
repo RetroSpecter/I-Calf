@@ -348,7 +348,7 @@ AnimatorState:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: New State
+  m_Name: specialScene
   m_Speed: 1
   m_CycleOffset: 0
   m_Transitions: []
@@ -832,7 +832,7 @@ AnimatorStateMachine:
     m_Position: {x: 336, y: 636, z: 0}
   - serializedVersion: 1
     m_State: {fileID: 1102069706719119044}
-    m_Position: {x: 336, y: -60, z: 0}
+    m_Position: {x: 336, y: -48, z: 0}
   m_ChildStateMachines: []
   m_AnyStateTransitions: []
   m_EntryTransitions: []

@@ -7,7 +7,8 @@ public class skyboxTransition : MonoBehaviour {
 
     public Material skyboxMat;
 
-    [Range(0, 1)] public float transition;
+    [Range(0, 10)] public float transition;
+    public Color colorTint;
 
     // Use this for initialization
     void Start () {
@@ -19,7 +20,8 @@ public class skyboxTransition : MonoBehaviour {
         if (!Application.isPlaying) {
             startup();
         }
-        skyboxMat.SetFloat("_Blend", transition);
+        skyboxMat.SetFloat("_Exposure", transition);
+        skyboxMat.SetColor("_Tint", colorTint);
     }
 
     public void startup() {

@@ -36,6 +36,6 @@ Material:
     m_Floats:
     - _Cutoff: 0.5
     - _TXWidth: 512
-    - _U: 2160
-    - _V: 3840
+    - _U: 2400
+    - _V: 4800
     m_Colors: []

@@ -6,10 +6,18 @@ public class grassSkew : BillBoardGo {
 
     float animationOffset;
 
+    float randomSway;
+    float randomSpeed;
+
+
     void Start() {
+        
+
+        randomSway = Random.Range(0.25f, 4);
+        randomStart = Random.Range(0,5);
+        randomSpeed = Random.Range(1, 6);
+
         //animationOffset = Random.Range(8, 15);
-        GetComponent<Animator>().SetFloat("offset", Random.Range(0, 1));
-        GetComponent<Animator>().SetBool("mirror", Random.Range(0, 2) > 0.5f);
 
         MyTransform = this.transform;
         MyCameraTransform = Camera.main.transform;
@@ -18,20 +26,27 @@ public class grassSkew : BillBoardGo {
             MyTransform.forward = MyCameraTransform.forward;
         else
             MyTransform.LookAt(MyCameraTransform, Vector3.up);
+
+
     }
 
     float randomStart;
     void LateUpdate() {
+
         //if (Time.time > animationOffset) {
-           //animationOffset = Time.time + animationOffset * Random.Range(2, 4);
-           //GetComponent<Animator>().Play("grass sway", 0, Random.Range(0.1f, 1));
+        //animationOffset = Time.time + animationOffset * Random.Range(2, 4);
+        //GetComponent<Animator>().Play("grass sway", 0, Random.Range(0.1f, 1));
         //}
 
-        MyCameraTransform = Camera.main.transform;
-        //float rotate =  Mathf.Sin(randomStart + Time.time * 4) * 6 - 3;
+        Vector3 skale = transform.localScale;
+
+        //skale.x = Mathf.Sign(skale.x) * Mathf.Min(0.75f, Mathf.Abs(skale.x));
+        //transform.localScale = skale;
+
+        float rotate =  Mathf.Sin(randomStart + Time.time/randomSpeed) * randomSway - randomSway/2 ;
 
         Quaternion lookAtCamera = Quaternion.LookRotation(MyCameraTransform.position);
 
-        //transform.rotation = Quaternion.Euler(transform.eulerAngles.x, transform.eulerAngles.y, rotate);
+        transform.rotation = Quaternion.Euler(transform.eulerAngles.x, transform.eulerAngles.y, rotate);
     }
 }

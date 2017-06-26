@@ -18,7 +18,7 @@ AnimationClip:
       m_Curve:
       - serializedVersion: 2
         time: 0
-        value: {x: -234.722, y: -357.131, z: -344.33002}
+        value: {x: -247.91101, y: -360, z: -360}
         inSlope: {x: 0, y: 0, z: 0}
         outSlope: {x: 0, y: 0, z: 0}
         tangentMode: 0
@@ -45,14 +45,14 @@ AnimationClip:
       m_Curve:
       - serializedVersion: 2
         time: 0
-        value: {x: 3.24, y: -0.24, z: 2.37}
+        value: {x: 3.24, y: 0.03, z: 2.37}
         inSlope: {x: 0, y: 0, z: 0}
-        outSlope: {x: 0.28316012, y: -0, z: -0.385447}
+        outSlope: {x: 0.28316012, y: -0.0074844076, z: -0.385447}
         tangentMode: 0
       - serializedVersion: 2
         time: 8.016666
-        value: {x: 5.51, y: -0.24, z: -0.72}
-        inSlope: {x: 0.28316012, y: 0, z: -0.385447}
+        value: {x: 5.51, y: -0.03, z: -0.72}
+        inSlope: {x: 0.28316012, y: -0.0074844076, z: -0.385447}
         outSlope: {x: 0, y: 0, z: 0}
         tangentMode: 0
       m_PreInfinity: 2
@@ -60,7 +60,71 @@ AnimationClip:
       m_RotationOrder: 4
     path: Scene_H1/farmer
   m_ScaleCurves: []
-  m_FloatCurves: []
+  m_FloatCurves:
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 0.74264705
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: material._Color.r
+    path: Scene_H1/Barn/lamps/Plane (2)
+    classID: 23
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 0.41299906
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: material._Color.g
+    path: Scene_H1/Barn/lamps/Plane (2)
+    classID: 23
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 0.32217777
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: material._Color.b
+    path: Scene_H1/Barn/lamps/Plane (2)
+    classID: 23
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: material._Color.a
+    path: Scene_H1/Barn/lamps/Plane (2)
+    classID: 23
+    script: {fileID: 0}
   m_PPtrCurves:
   - curve:
     - time: 0
@@ -668,6 +732,34 @@ AnimationClip:
       typeID: 4
       customType: 14
       isPPtrCurve: 0
+    - serializedVersion: 2
+      path: 880975166
+      attribute: 1303350129
+      script: {fileID: 0}
+      typeID: 23
+      customType: 22
+      isPPtrCurve: 0
+    - serializedVersion: 2
+      path: 880975166
+      attribute: 1571785585
+      script: {fileID: 0}
+      typeID: 23
+      customType: 22
+      isPPtrCurve: 0
+    - serializedVersion: 2
+      path: 880975166
+      attribute: 1840221041
+      script: {fileID: 0}
+      typeID: 23
+      customType: 22
+      isPPtrCurve: 0
+    - serializedVersion: 2
+      path: 880975166
+      attribute: 2108656497
+      script: {fileID: 0}
+      typeID: 23
+      customType: 22
+      isPPtrCurve: 0
     pptrCurveMapping:
     - {fileID: 21300000, guid: 50cbe73afc8c4024bb8b307cee1ef13b, type: 3}
     - {fileID: 21300000, guid: f34cc4860fe0c3c4d96bc405c70707ad, type: 3}
@@ -1026,7 +1118,7 @@ AnimationClip:
       m_Curve:
       - serializedVersion: 2
         time: 0
-        value: -234.722
+        value: -247.91101
         inSlope: 0
         outSlope: 0
         tangentMode: 136
@@ -1042,7 +1134,7 @@ AnimationClip:
       m_Curve:
       - serializedVersion: 2
         time: 0
-        value: -357.131
+        value: -360
         inSlope: 0
         outSlope: 0
         tangentMode: 136
@@ -1058,7 +1150,7 @@ AnimationClip:
       m_Curve:
       - serializedVersion: 2
         time: 0
-        value: -344.33002
+        value: -360
         inSlope: 0
         outSlope: 0
         tangentMode: 136
@@ -1096,14 +1188,14 @@ AnimationClip:
       m_Curve:
       - serializedVersion: 2
         time: 0
-        value: -0.24
+        value: 0.03
         inSlope: 0
-        outSlope: -0
+        outSlope: -0.0074844076
         tangentMode: 69
       - serializedVersion: 2
         time: 8.016666
-        value: -0.24
-        inSlope: 0
+        value: -0.03
+        inSlope: -0.0074844076
         outSlope: 0
         tangentMode: 69
       m_PreInfinity: 2
@@ -1134,6 +1226,70 @@ AnimationClip:
     attribute: m_LocalPosition.z
     path: Scene_H1/farmer
     classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 0.74264705
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: material._Color.r
+    path: Scene_H1/Barn/lamps/Plane (2)
+    classID: 23
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 0.41299906
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: material._Color.g
+    path: Scene_H1/Barn/lamps/Plane (2)
+    classID: 23
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 0.32217777
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: material._Color.b
+    path: Scene_H1/Barn/lamps/Plane (2)
+    classID: 23
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: material._Color.a
+    path: Scene_H1/Barn/lamps/Plane (2)
+    classID: 23
     script: {fileID: 0}
   m_EulerEditorCurves:
   - curve:

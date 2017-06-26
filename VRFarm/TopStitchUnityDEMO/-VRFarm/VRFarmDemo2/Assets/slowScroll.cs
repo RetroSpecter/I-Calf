@@ -12,6 +12,6 @@ public class slowScroll : MonoBehaviour {
     }
 
     void Update () {
-        transform.position += new Vector3(0, 0, speed);
+        transform.position += new Vector3(speed, 0, speed);
 	}
 }
